@@ -1,0 +1,6 @@
+- Apply id filter for each CAN device.
+- Sometimes, two sequential encoder packets are received at the same time.
+- Test position mode of motor driver.
+- Implement function to launch RTX task manager in rPanelAllegroDog.
+- Test NI CAN
+- Filtering unnecessary CAN frames from receiving

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Device xmlns="http://www.simlab.co.kr/2008/DML" name="Motor" rdd="ACTUAL" target="JOINT" type="ACTUATOR" ver="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.simlab.co.kr/2008/DML DML.xsd">
+
+  <credit address="www.simlab.co.kr" creator="SimLab" date="2013/8/28" description="Motor" email="info@simlab.co.kr"/>
+
+  <specification byte="4" period="0" physics="..\..\..\devices\rDeviceAllegroDogMotorNRL.rdd">
+    <property name="Joint" value="11"/>
+    <property name="current lower" value="-3.62"/>
+    <property name="current to pwm" value="81.9"/>
+    <property name="current upper" value="3.62"/>
+    <property name="direction" value="-"/>
+    <property name="gear ratio" value="85.577"/>
+    <property name="system device name" value="COMM1"/>
+    <property name="torque constant" value="0.0259"/>
+  </specification>
+
+</Device>

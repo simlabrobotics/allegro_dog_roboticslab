@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Subsys xmlns="http://www.simlab.co.kr/2008/AML" name="P1DOF_RT.aml" selfcollision="true" ver="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.simlab.co.kr/2008/AML AML.xsd">
+
+  <credit address="" creator="" date="" description="" email=""/>
+
+  <body R="1 0 0 0 1 0 0 0 1" com="0 0 0" custom_physics="" friction="0 0" inertia="0.01 0.01 0.01 0 0 0" inertia_frame="COM" mass="0.1" name="Base" r="0 0 0" restitution="0">
+    <render R="-1 0 0 0 0 -1 0 -1 0" name="Cylinder 1" r="0 -0.02 0">
+      <shape>
+        <appearance>
+          <material ambient="0.200000002980232" diffuse="0.2 0.4 1" emissive="0 0 0" enabled="true" shininess="0" specular="0 0 0" transparency="0"/>
+          <texture image="" lightmap="" normalmap="" repeatS="false" repeatT="false" specularmap=""/>
+          <textransform center="0 0" rotation="0" scale="1 1" translation="0 0"/>
+        </appearance>
+        <geometry approx="ASIS" type="CYLINDER">
+          <cylinder h="0.01" r="0.025"/>
+        </geometry>
+      </shape>
+    </render>
+    <render R="-1 0 0 0 0 -1 0 -1 0" name="Cylinder 1 1" r="0 0.02 0">
+      <shape>
+        <appearance>
+          <material ambient="0.200000002980232" diffuse="0.2 0.4 1" emissive="0 0 0" enabled="true" shininess="0" specular="0 0 0" transparency="0"/>
+          <texture image="" lightmap="" normalmap="" repeatS="false" repeatT="false" specularmap=""/>
+          <textransform center="0 0" rotation="0" scale="1 1" translation="0 0"/>
+        </appearance>
+        <geometry approx="ASIS" type="CYLINDER">
+          <cylinder h="0.01" r="0.025"/>
+        </geometry>
+      </shape>
+    </render>
+    <render R="-1 0 0 0 1 0 0 0 -1" name="Box" r="0 0.02 0.015">
+      <shape>
+        <appearance>
+          <material ambient="0.200000002980232" diffuse="0.2 0.4 1" emissive="0 0 0" enabled="true" shininess="0" specular="0 0 0" transparency="0"/>
+          <texture image="" lightmap="" normalmap="" repeatS="false" repeatT="false" specularmap=""/>
+          <textransform center="0 0" rotation="0" scale="1 1" translation="0 0"/>
+        </appearance>
+        <geometry approx="ASIS" type="BOX">
+          <box x="0.05" y="0.01" z="0.03"/>
+        </geometry>
+      </shape>
+    </render>
+    <render R="-1 0 0 0 1 0 0 0 -1" name="Box 1" r="-0 -0.02 0.015">
+      <shape>
+        <appearance>
+          <material ambient="0.200000002980232" diffuse="0.2 0.4 1" emissive="0 0 0" enabled="true" shininess="0" specular="0 0 0" transparency="0"/>
+          <texture image="" lightmap="" normalmap="" repeatS="false" repeatT="false" specularmap=""/>
+          <textransform center="0 0" rotation="0" scale="1 1" translation="0 0"/>
+        </appearance>
+        <geometry approx="ASIS" type="BOX">
+          <box x="0.05" y="0.01" z="0.03"/>
+        </geometry>
+      </shape>
+    </render>
+    <render R="-1 0 0 0 0 -1 0 -1 0" name="Box 2" r="0 0 0.03">
+      <shape>
+        <appearance>
+          <material ambient="0.200000002980232" diffuse="0.2 0.4 1" emissive="0 0 0" enabled="true" shininess="0" specular="0 0 0" transparency="0"/>
+          <texture image="" lightmap="" normalmap="" repeatS="false" repeatT="false" specularmap=""/>
+          <textransform center="0 0" rotation="0" scale="1 1" translation="0 0"/>
+        </appearance>
+        <geometry approx="ASIS" type="BOX">
+          <box x="0.05" y="0.01" z="0.05"/>
+        </geometry>
+      </shape>
+    </render>
+    <constraint kp="10000 10000 10000 10000 10000 10000 " kv="200 200 200 200 200 200 " name="Earthing" type="EARTHING"/>
+    <child>
+      <joint Rflat="0 -1 -2.4493e-016 0 -2.4493e-016 1 -1 0 0" Rsharp="1 0 0 0 0 -1 0 1 0" activated="true" coulomb="0 0 " custom_physics="" damping="0 " dof="1" limit="0 0 " name="Link1" neutral="0 " parameters="" restitution="0 " rflat="0 0 0" rsharp="-0.0825 0 0" stiction="0 0 " stiffness="0 " stribeck="0 0 " type="REVOLUTE">
+        <device R="1 0 0 0 1 0 0 0 1" dml="devices\NRL_motor_RT_J0.dml" name="Mot1" r="0 0 0"/>
+        <device R="1 0 0 0 1 0 0 0 1" dml="devices\NRL_enc_RT_J0.dml" name="Enc1" r="0 0 0"/>
+      </joint>
+      <body R="1 0 0 0 1 0 0 0 1" com="0 0 0" custom_physics="" friction="0 0" inertia="5e-006 0.000229375 0.000229375 0 0 0" inertia_frame="COM" mass="0.1" name="Link1" r="0 0 0" restitution="0">
+        <render R="0 0 1 0 1 0 -1 0 0" name="Cylinder" r="0 0 0">
+          <shape>
+            <appearance>
+              <material ambient="0.200000002980232" diffuse="0.6 0.6 0.6" emissive="0 0 0" enabled="true" shininess="0" specular="0 0 0" transparency="0"/>
+              <texture image="" lightmap="" normalmap="" repeatS="false" repeatT="false" specularmap=""/>
+              <textransform center="0 0" rotation="0" scale="1 1" translation="0 0"/>
+            </appearance>
+            <geometry approx="ASIS" type="CYLINDER">
+              <cylinder h="0.165" r="0.013"/>
+            </geometry>
+          </shape>
+        </render>
+        <render R="1 0 0 0 0 -1 0 1 0" name="Cylinder 2 1" r="-0.0825 0 0">
+          <shape>
+            <appearance>
+              <material ambient="0.200000002980232" diffuse="1 0.4 0" emissive="0 0 0" enabled="true" shininess="0" specular="0 0 0" transparency="0"/>
+              <texture image="" lightmap="" normalmap="" repeatS="false" repeatT="false" specularmap=""/>
+              <textransform center="0 0" rotation="0" scale="1 1" translation="0 0"/>
+            </appearance>
+            <geometry approx="ASIS" type="CYLINDER">
+              <cylinder h="0.028" r="0.025"/>
+            </geometry>
+          </shape>
+        </render>
+        <child>
+          <joint Rflat="1 0 0 0 1 0 0 0 1" Rsharp="1 0 0 0 1 0 0 0 1" activated="true" coulomb="" custom_physics="" damping="" dof="0" limit="" name="Mass" neutral="" parameters="1 0 0 0 1 0 0 0 1 0.0825 0 0" restitution="" rflat="0 0 0" rsharp="0 0 0" stiction="" stiffness="" stribeck="" type="FIXED"/>
+          <body R="1 0 0 0 1 0 0 0 1" com="0 0 0" custom_physics="" friction="0 0" inertia="0.00064 0.00064 0.00064 0 0 0" inertia_frame="COM" mass="1" name="Mass" r="0 0 0" restitution="0">
+            <render R="1 0 0 0 1 0 0 0 1" name="Sphere" r="0 0 0">
+              <shape>
+                <appearance>
+                  <material ambient="0.200000002980232" diffuse="1 0.4 0" emissive="0 0 0" enabled="true" shininess="0" specular="0 0 0" transparency="0"/>
+                  <texture image="" lightmap="" normalmap="" repeatS="false" repeatT="false" specularmap=""/>
+                  <textransform center="0 0" rotation="0" scale="1 1" translation="0 0"/>
+                </appearance>
+                <geometry approx="ASIS" type="SPHERE">
+                  <sphere r="0.04"/>
+                </geometry>
+              </shape>
+            </render>
+          </body>
+        </child>
+      </body>
+    </child>
+    <ucs R="1 0 0 0 1 0 0 0 1" name="Base" r="0 0 0"/>
+  </body>
+
+  <device R="1 0 0 0 1 0 0 0 1" dml="devices\NRL_PEAKCAN0.dml" name="COMM0" r="0 0 0"/>
+
+</Subsys>

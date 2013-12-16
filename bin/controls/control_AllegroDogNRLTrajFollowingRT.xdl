@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<DLL xmlns="http://www.simlab.co.kr/2008/XDL" name="control_AllegroDogNRLTrajFollowing" path="control_AllegroDogNRL.dll" type="USER_CONTROL" ver="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.simlab.co.kr/2008/XDL XDL.xsd">
+
+  <credit address="SimLab Co., Ltd." creator="Sean Yi" date="Oct 1st, 2013" description="Trajectory Following (Position mode)" email="simlab@info.co.kr"/>
+
+</DLL>

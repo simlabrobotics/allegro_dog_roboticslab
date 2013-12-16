@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Device xmlns="http://www.simlab.co.kr/2008/DML" name="TorqueMotor" rdd="VIRTUAL" target="JOINT" type="ACTUATOR" ver="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.simlab.co.kr/2008/DML DML.xsd">
+
+  <credit address="www.simlab.co.kr" creator="SimLab" date="2013/8/28" description="Motor" email="info@simlab.co.kr"/>
+
+  <specification byte="4" period="1000" physics="..\..\..\devices\rDeviceMotor.rdd">
+    <property name="torque_max" value="8.7"/>
+    <property name="torque_min" value="-8.7"/>
+  </specification>
+
+</Device>

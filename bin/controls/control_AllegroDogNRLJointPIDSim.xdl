@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<DLL xmlns="http://www.simlab.co.kr/2008/XDL" name="Interpolated Joint Controller base-on PID control algorithm" path="rControlPID.dll" type="USER_CONTROL" ver="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.simlab.co.kr/2008/XDL XDL.xsd">
+
+  <credit address="SimLab Co., Ltd." creator="Sangyup Yi" date="April 23, 2012" description="PID controller" email="seanyi@simlab.co.kr"/>
+
+  <property name="InvL2" value="0"/>
+
+  <property name="JDOF" value="6"/>
+
+  <property name="Kd" value="2 2 1  2 2 1  2 2 1  2 2 1"/>
+
+  <property name="Ki" value="0"/>
+
+  <property name="Kp" value="90 82 70  90 82 70  90 82 70  90 82 70"/>
+
+  <property name="acceleration" value="6.28"/>
+
+  <property name="derivative filter cutoff freq" value="10"/>
+
+  <property name="device index offset" value="1"/>
+
+  <property name="enc name format" value="Enc%d"/>
+
+  <property name="maximum velocity" value="3.14"/>
+
+  <property name="motor name format" value="Mot%d"/>
+
+  <property name="q0" value="0"/>
+
+  <property name="qh" value="30"/>
+
+  <property name="tacho name format" value="tacho%d"/>
+
+  <property name="use InvL2" value="false"/>
+
+  <property name="use derivative filter" value="true"/>
+
+  <property name="use smart actuator" value="false"/>
+
+  <property name="use trapezoid" value="true"/>
+
+</DLL>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Device xmlns="http://www.simlab.co.kr/2008/DML" name="angle sensor" rdd="VIRTUAL" target="BODY" type="SENSOR" ver="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.simlab.co.kr/2008/DML DML.xsd">
+
+  <credit address="www.rlab.co.kr" creator="SimLab" date="2003/5/1" description="angle sensor" email="info@simlab.co.kr"/>
+
+  <specification byte="4" period="10000" physics="..\..\..\devices\rDeviceSerialGyroCruizCore.rdd">
+    <property name="baud_rate" value="115200"/>
+    <property name="bias" value="0"/>
+    <property name="cov" value="0"/>
+    <property name="device_name_com" value="COMM_Serial_CruizCore"/>
+    <property name="flash_saved" value="Y"/>
+    <property name="output_rate" value="100"/>
+  </specification>
+
+</Device>

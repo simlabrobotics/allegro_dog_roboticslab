@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<DLL xmlns="http://www.simlab.co.kr/2008/XDL" name="control_TuneInvL2" path="rControlTuneInvL2.dll" type="USER_CONTROL" ver="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.simlab.co.kr/2008/XDL XDL.xsd">
+
+  <credit address="SimLab Co., Ltd." creator="Sangyup Yi" date="July 21, 2011" description="control plugin to tune InvL2 control gains using sinusoidal trajectory for each joint." email="seanyi@simlab.co.kr"/>
+
+  <property name="DOF" value="12"/>
+
+  <property name="InvL2" value="0 0 0 0 0 0 0 0 0 0 0 0"/>
+
+  <property name="Kd" value="2 2 0 0 0 0 0 0 0 0 0 0"/>
+
+  <property name="Ki" value="0 0 0 0 0 0 0 0 0 0 0 0"/>
+
+  <property name="Kp" value="50 50 0 0 0 0 0 0 0 0 0 0"/>
+
+  <property name="__desc_amplitude__" value="amplitude of the trajectory in degree"/>
+
+  <property name="__desc_frequency__" value="frequency of the trajectory in Hz"/>
+
+  <property name="__description__" value="sin^2 trajectory"/>
+
+  <property name="amplitude" value="20"/>
+
+  <property name="derivative filter cutoff freq" value="10"/>
+
+  <property name="device index offset" value="1"/>
+
+  <property name="device name prefix" value=""/>
+
+  <property name="enc name format" value="Enc%d"/>
+
+  <property name="frequency" value="0.5"/>
+
+  <property name="motor name format" value="Mot%d"/>
+
+  <property name="servo init wait count" value="5"/>
+
+  <property name="tacho name format" value="tacho%d"/>
+
+  <property name="use InvL2" value="false"/>
+
+  <property name="use derivative filter" value="true"/>
+
+  <property name="use smart actuator" value="false"/>
+
+</DLL>

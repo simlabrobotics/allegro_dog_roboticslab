@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Device xmlns="http://www.simlab.co.kr/2008/DML" name="rDeviceWithRobotmyAHRS" rdd="VIRTUAL" target="ANYWHERE" type="HELPER" ver="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.simlab.co.kr/2008/DML DML.xsd">
+
+  <credit address="www.simlab.co.kr" creator="SimLab" date="2013/10/12" description="myAHRS by WithRobot" email="info@simlab.co.kr"/>
+
+  <specification byte="1" period="0" physics="..\..\..\devices\rDeviceWithRobotmyAHRS.rdd">
+    <property name="DATA_CONTINUOUS" value="true"/>
+    <property name="EN_ACC" value="true"/>
+    <property name="EN_ATTI" value="true"/>
+    <property name="EN_GYR" value="true"/>
+    <property name="EN_MAG" value="true"/>
+    <property name="EN_TMP" value="true"/>
+    <property name="O_RATE" value="4"/>
+    <property name="SENSOR_ID" value="0"/>
+    <property name="__desc_DATA_CONTINUOUS__" value="{true: get data periodically, false: get data requested manually{default}}"/>
+    <property name="__desc_O_RATE__" value="{0:1Hz(default), 1:10Hz, 2:20Hz, 3:50Hz, 4:100Hz}"/>
+    <property name="__desc_SENSOR_ID__" value="{0~255}"/>
+    <property name="__desc_flow_control__" value="{0:none, 1:Xon/Xoff, 2:hardware}"/>
+    <property name="__desc_parity__" value="{0:none, 1:even, 2:odd parity}"/>
+    <property name="__desc_port_name__" value="{ex: COM1, \\.\COM10}"/>
+    <property name="__desc_stop_bit__" value="{0:1bit, 1:1.5bit, 2:2bit}"/>
+    <property name="baud rate" value="115200"/>
+    <property name="byte size" value="8"/>
+    <property name="flow control" value="0"/>
+    <property name="parity" value="0"/>
+    <property name="port name" value="\\.\COM11"/>
+    <property name="stop bit" value="0"/>
+    <property name="time out" value="0"/>
+  </specification>
+
+</Device>

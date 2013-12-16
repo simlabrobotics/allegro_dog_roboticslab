@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<DLL xmlns="http://www.simlab.co.kr/2008/XDL" name="AllegroDog Sim controller" path="control_AllegroDogNRL.dll" type="USER_CONTROL" ver="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.simlab.co.kr/2008/XDL XDL.xsd">
+
+  <credit address="SimLab Co., Ltd." creator="Vo Gia Loc" date="Nov 22th, 2012" description="Sim controller for AllegroDog" email="simlab@info.co.kr"/>
+
+  <property name="Body Length" value="0.45"/>
+
+  <property name="Body Width" value="0.24"/>
+
+  <property name="Home Position Front" value="0.225"/>
+
+  <property name="Home Position Height" value="-0.47"/>
+
+  <property name="Home Postition Hind" value="-0.225"/>
+
+  <property name="Kd" value="3.5 3.5 3.5 3.5 3.5 3.5 3.5 3.5 3.5 3.5 3.5 3.5"/>
+
+  <property name="Kd Balance" value="0"/>
+
+  <property name="Kp" value="190 190 190 190 190 190 190 190 190 190 190 190"/>
+
+  <property name="Kp Balance" value="-0.173"/>
+
+  <property name="Kp Turn" value="0.3"/>
+
+  <property name="L0" value="0.0705"/>
+
+  <property name="L1" value="0.2"/>
+
+  <property name="L2" value="0.25"/>
+
+  <property name="Stride Frequency" value="1.5"/>
+
+  <property name="Stride Step Height" value="0.03"/>
+
+  <property name="Stride Step Increment X" value="0.00001"/>
+
+  <property name="Stride Step Increment Z" value="0.00005"/>
+
+  <property name="Stride Step Length" value="0.045"/>
+
+</DLL>

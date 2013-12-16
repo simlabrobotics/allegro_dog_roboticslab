@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Device xmlns="http://www.simlab.co.kr/2008/DML" name="Gyro 3DM GX3" rdd="VIRTUAL" target="ANYWHERE" type="BOTH" ver="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.simlab.co.kr/2008/DML DML.xsd">
+
+  <credit address="www.rlab.co.kr" creator="SimLab" date="2003/5/1" description="Gyro 3DM GX3" email="info@simlab.co.kr"/>
+
+  <specification byte="31" period="1000" physics="..\..\..\devices\rDeviceSerialGyro3DM_GX3.rdd">
+    <property name="device_name_com" value="COMM_Serial_3DMGX3"/>
+    <property name="sampling_rate" value="1000"/>
+  </specification>
+
+</Device>

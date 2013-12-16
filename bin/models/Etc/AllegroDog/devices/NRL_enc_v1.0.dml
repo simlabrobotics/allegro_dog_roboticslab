@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Device xmlns="http://www.simlab.co.kr/2008/DML" name="Encoder" rdd="VIRTUAL" target="JOINT" type="SENSOR" ver="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.simlab.co.kr/2008/DML DML.xsd">
+
+  <credit xmlns="http://www.simlab.co.kr/2008/AML" address="SimLab Co., Ltd." creator="Jonghoon Park" date="Aug. 28, 2008" description="General Encoder" email="coolcat@simlab.co.kr"/>
+
+  <specification byte="4" period="1000" physics="..\..\..\devices\rDeviceEncoder.rdd"/>
+
+</Device>

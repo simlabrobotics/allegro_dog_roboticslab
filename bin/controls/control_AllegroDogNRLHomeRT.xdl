@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<DLL xmlns="http://www.simlab.co.kr/2008/XDL" name="AllegroDogHome" path="control_AllegroDogHomeNRL.dll" type="USER_CONTROL" ver="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.simlab.co.kr/2008/XDL XDL.xsd">
+
+  <credit address="SimLab Co., Ltd." creator="SimLab" date="Oct 20th, 2013" description="AllegroDog Homing" email="simlab@info.co.kr"/>
+
+  <property name="direction" value="0 1 0 1 0 1 1 0 1 0 1 0"/>
+
+  <property name="offset" value="1980 -3815 3990 -1980 3815 -3990 -1980 3815 -3990 1980 -3815 3990"/>
+
+  <property name="offset_tune" value="0 0 0 0 0 0 0 0 0 0 0 0"/>
+
+  <property name="speed" value="100"/>
+
+</DLL>

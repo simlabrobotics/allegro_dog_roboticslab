@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Device xmlns="http://www.simlab.co.kr/2008/DML" name="RemoteTP_BT" rdd="VIRTUAL" target="ANYWHERE" type="SENSOR" ver="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.simlab.co.kr/2008/DML DML.xsd">
+
+  <credit address="" creator="" date="" description="" email=""/>
+
+  <specification byte="12" period="50000" physics="..\..\..\devices\rDeviceERHandRemoteTP_BT.rdd">
+    <property name="Baud Rate" value="9600"/>
+    <property name="COM Port" value="5"/>
+    <property name="packet_size" value="4"/>
+  </specification>
+
+</Device>

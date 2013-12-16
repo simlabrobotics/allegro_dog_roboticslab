@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Device xmlns="http://www.simlab.co.kr/2008/DML" name="IMU" rdd="VIRTUAL" target="BODY" type="SENSOR" ver="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.simlab.co.kr/2008/DML DML.xsd">
+
+  <credit address="www.rlab.co.kr" creator="SimLab" date="2013/11/22" description="IMU" email="info@simlab.co.kr"/>
+
+  <specification byte="12" period="50000" physics="..\..\..\devices\rDeviceIMU.rdd">
+    <property name="ACC_BIAS" value="0 0 0"/>
+    <property name="ACC_COV" value="0 0 0 0 0 0 0 0 0"/>
+    <property name="ACC_CUTOFF_FREQ" value="10"/>
+    <property name="ATTI_BIAS" value="0 0 0"/>
+    <property name="ATTI_COV" value="0 0 0 0 0 0 0 0 0"/>
+    <property name="ATTI_CUTOFF_FREQ" value="10"/>
+    <property name="BYR_COV" value="0 0 0 0 0 0 0 0 0"/>
+    <property name="GYR_BIAS" value="0 0 0"/>
+    <property name="GYR_CUTOFF_FREQ" value="10"/>
+    <property name="MAG_BIAS" value="0 0 0"/>
+    <property name="MAG_COV" value="0 0 0 0 0 0 0 0 0"/>
+    <property name="MAG_CUTOFF_FREQ" value="10"/>
+    <property name="R_REF_INV" value="1 0 0 0 -1 0 0 0 -1"/>
+    <property name="UNIT_ANG" value="degree"/>
+    <property name="UNIT_LEN" value="m"/>
+    <property name="__desc_UNIT_ANG" value="{degree, radian(default)}"/>
+    <property name="__desc_UNIT_LEN" value="{m(default), cm, mm}"/>
+  </specification>
+
+</Device>

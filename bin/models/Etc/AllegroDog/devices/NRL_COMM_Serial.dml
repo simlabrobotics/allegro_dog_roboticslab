@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Device xmlns="http://www.simlab.co.kr/2008/DML" name="Serial" rdd="VIRTUAL" target="SYSTEM" type="HELPER" ver="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.simlab.co.kr/2008/DML DML.xsd">
+
+  <credit address="www.rlab.co.kr" creator="SimLab" date="2011/12/31" description="Communication device using Serial" email="info@simlab.co.kr"/>
+
+  <specification byte="100000000" period="0" physics="..\..\..\devices\rDeviceSerial.rdd">
+    <property name="baudrate" value="115200"/>
+    <property name="packet_size" value="64"/>
+    <property name="port" value="14"/>
+  </specification>
+
+</Device>
